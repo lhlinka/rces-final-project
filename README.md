@@ -4,7 +4,6 @@ My final project repository for RCES
 
 ### Scientific Questions
  
-Primary Question: 
 How do geochemistry and magma generation depths and temperatures evolve over the emplacement of the Columbia River Basalt Group?
 
 ### Dataset
