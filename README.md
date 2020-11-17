@@ -24,4 +24,6 @@ First, I will load the .csv file of published geochemical data for the Columbia 
 
 Then I will use the groupby function to sort the data based on stratographic units and apply mathematical formulas to determine if there is any europium anomaly (Eu*), dysprosium anomaly (Dy), and trace element ratios to be used as proxies to infer volatile content.
 
-Finally, to analyze the evolution of geochemistry and inferred volatile content over the emplacement of the Columbia River Basalt Group, I will make a series of plots including: (1) TAS diagram, (2) REE spider diagram, (3) Eu* anomaly plot, (4) Dy anomaly plot, (5) trace elements as proxies for volatile content (e.g., Nb for CO2, Ce for H2O, Dy for S), (6) a map of the geographical location of data points.
+Finally, to analyze the evolution of geochemistry and inferred volatile content over the emplacement of the Columbia River Basalt Group, I will make a series of plots grouped by formation including: (1) TAS diagram, (2) REE spider diagram, (3) Eu* anomaly plot, (4) Dy anomaly plot, (5) trace elements as proxies for volatile content (e.g., Nb for CO2, Ce for H2O, Dy for S), (6) a map of the geographical location of data points.
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lhlinka/rces-final-project/HEAD)
