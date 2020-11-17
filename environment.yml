@@ -6,3 +6,6 @@ dependencies:
   - pandas
   - xarray
   - matplotlib
+  - cartopy
+  - scipy
+  
