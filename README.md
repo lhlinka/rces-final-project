@@ -20,7 +20,7 @@ File downloaded from the GEOROC - Geochemical database (http://georoc.mpch-mainz
 
 ### Summary of Proposed Analysis
 
-First, I will load the .csv file of published geochemical data for the Columbia River Basalt Group; I will clean up the data file for any missing values, normalize the data to 100%, and address any inconsistent reporting of data (i.e. reporting FeO vs Fe2O3, all data will be converted to FeO*). 
+First, I will load the .csv file of published geochemical data for the Columbia River Basalt Group; I will clean up the data file for any missing values, normalize the data to 100%, and address any inconsistent reporting of data. 
 
 Then I will use the groupby function to sort the data based on stratographic units and apply mathematical formulas to determine if there is any europium anomaly (Eu*), dysprosium anomaly (Dy), and trace element ratios to be used as proxies to infer volatile content.
 
