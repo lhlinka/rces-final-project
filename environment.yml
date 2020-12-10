@@ -1,5 +1,6 @@
 channels:
   - conda-forge
+  - defaults
 dependencies:
   - python=3.7.*
   - numpy
@@ -8,3 +9,6 @@ dependencies:
   - matplotlib
   - cartopy
   - scipy
+  - pip
+  - pip:
+      - pyrolite
