@@ -8,7 +8,7 @@ How does geochemistry and inferred volatile content evolve over the emplacement 
 
 ### Hypothesis
 
-The Columbia River Basalt Group consists of 350 lava flows that are divided into 5 major formations: Steens, Imnaha, Grande Ronde, Wanapum, and Saddle Moutain. The earlier emplaced Steens formation consist of more primitive magmas, therefore I predict the Steens may have a greater volatile content than the later formations.
+The Columbia River Basalt Group consists of 350 lava flows that are divided into 5 major formations: Steens, Imnaha, Grande Ronde, Wanapum, and Saddle Moutains. The earlier emplaced Steens and Imnhaha formations consist of more primitive magmas, therefore I predict the Steens and Imnaha may have a greater volatile content than the later formations.
 
 ### Dataset
 
@@ -20,10 +20,10 @@ File downloaded from the GEOROC - Geochemical database (http://georoc.mpch-mainz
 
 ### Summary of Proposed Analysis
 
-First, I will load the .csv file of published geochemical data for the Columbia River Basalt Group; I will clean up the data file for any missing values, normalize the data to 100%, and address any inconsistent reporting of data. 
+First, I will load the .csv file of published geochemical data for the Columbia River Basalt Group; I will clean up the data file for any missing values, address anh inconsistent reporting of data, and apply mathematical formulas to normalize the major element data to 100%, calculate total alkali content, and calculate trace element ratios of interest.
 
-Then I will use the groupby function to sort the data based on stratographic units and apply mathematical formulas to determine if there is any europium anomaly (Eu*), dysprosium anomaly (Dy), and trace element ratios to be used as proxies to infer volatile content.
+Then I will use the filter, where, and groupby functions to sort the data based on stratographic formation (e.g., Steens, Imnaha, Grande Ronde, Wanapum, and Saddle Mountains) and sample type (e.g., inclusion, glass, mineral, wholerock).
 
-Finally, to analyze the evolution of geochemistry and inferred volatile content over the emplacement of the Columbia River Basalt Group, I will make a series of plots grouped by formation including: (1) a map of the geographical location of data points, (2) TAS diagram, (2) MG#, (3) Harker diagram, (4) Zr as an index of magma differentitation , (6) trace elements as proxies for volatile content (e.g., Nb for CO2, Ce for H2O, Dy for S), (7) Eu* anomaly plot, (8) Dy anomaly plot
+Finally, to analyze the evolution of geochemistry and inferred volatile content over the emplacement of the Columbia River Basalt Group, I will make a series of plots grouped by sample type and stratigraphic formation including: (1) a boxplot of CRBG sample ages, (2) a map of the geographical location of the sample origin, (3) TAS diagram, (4) Harker diagram, (5) Zr as an index of magma differentitation, (6) histogram of measured volatile data and (7) trace elements as proxies to infer volatile content (e.g., Ce for H2O, Nb for CO2, Ba for CO2.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lhlinka/rces-final-project/HEAD)
